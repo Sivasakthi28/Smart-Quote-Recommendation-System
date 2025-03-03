@@ -42,7 +42,7 @@
     background-color: whitesmoke
 }
 .e:focus, .g:focus, .i:focus {
-    border-color: brown; /* Deep Purple */
+    border-color: brown;
     box-shadow: 0 0 8px rgba(213, 211, 214, 0.2);
 }
 .j {
@@ -51,7 +51,7 @@
     border-radius: 8px;
     font-size: 1rem;
     cursor: pointer;
-    background-color: brown; /* Violet */
+    background-color: brown;
     color: white;
     transition: all 0.3s ease;
     width: 100%;
