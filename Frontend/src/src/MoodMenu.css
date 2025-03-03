@@ -11,7 +11,7 @@
 
 .h21 {
     font-size: 2.5rem;
-    color: #34495e; /* Dark Blue-Grey */
+    color: #34495e; 
     margin-bottom: 30px;
     animation: fadeIn 1s ease;
 }
@@ -36,7 +36,7 @@ button {
 }
 
 .happy {
-    background-color: orange; /* Bright Orange */
+    background-color: orange;
 }
 .happy:hover {
     background-color: orange;
@@ -44,7 +44,7 @@ button {
 }
 
 .sad {
-    background-color: #27ae60; /* Blue */
+    background-color: #27ae60;
 }
 .sad:hover {
     background-color: #27ae60;
