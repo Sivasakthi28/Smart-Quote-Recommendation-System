@@ -1,0 +1,68 @@
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.b {
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+    position: relative;
+    text-align: center;
+}
+.c {
+    font-size: 2.5rem;
+    color: brown; 
+    margin-bottom: 20px;
+}
+.d, .f, .h {
+    font-size: 1rem;
+    color: #555;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+.e, .g, .i {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    background-color: whitesmoke
+}
+.e:focus, .g:focus, .i:focus {
+    border-color: brown; /* Deep Purple */
+    box-shadow: 0 0 8px rgba(213, 211, 214, 0.2);
+}
+.j {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: brown; /* Violet */
+    color: white;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 15px;
+}
+.j:hover {
+    background-color: brown ;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}

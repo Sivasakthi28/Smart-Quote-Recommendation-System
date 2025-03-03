@@ -1,0 +1,72 @@
+.div5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.h21 {
+    font-size: 2.5rem;
+    color: #34495e; /* Dark Blue-Grey */
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease;
+}
+
+.div6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.happy {
+    background-color: orange; /* Bright Orange */
+}
+.happy:hover {
+    background-color: orange;
+    transform: translateY(-5px);
+}
+
+.sad {
+    background-color: #27ae60; /* Blue */
+}
+.sad:hover {
+    background-color: #27ae60;
+    transform: translateY(-5px);
+}
+
+.motivate {
+    background-color: #2980b9; /* Green */
+}
+.motivate:hover {
+    background-color:#2980b9;
+    transform: translateY(-5px);
+}
+
+.depression {
+    background-color: orangered;
+}
+.depression:hover {
+    background-color: orangered;
+    transform: translateY(-5px);
+}
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}

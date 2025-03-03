@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Sakthi",
+      "email": "sakthi@gmail.com",
+      "password": "power28"
+    },
+    {
+      "id": "56a5",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "2f04",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "3fdb",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "8643",
+      "username": "",
+      "password": ""
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The happiness you feel is in direct proportion to the love you give.",
+      "author": "Oprah Winfrey",
+      "id": "69ef"
+    }
+  ]
+}
